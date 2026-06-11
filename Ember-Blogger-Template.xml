@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
+<!--
+=============================================================
+ Ember - Free Magazine Blogger Template
+ Version: 2.0.0
+ Author: Colorlib (https://colorlib.com)
+ Demo: https://ember-preview.blogspot.com
+ License: GPL v3 (https://www.gnu.org/licenses/gpl-3.0)
+=============================================================
+-->
 <html b:css='false' b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
 
@@ -95,6 +104,7 @@ button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
 .skip-link{position:absolute;left:-9999px;top:0;background:$maincolor;color:#fff!important;padding:10px 16px;z-index:100000}
 .skip-link:focus{left:0}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.pull-right{float:right!important}
 @media (min-width:769px){.ember_featured_widget.ember-initiate{min-height:490px}}
 .ember-mainslider,.ember-slider{position:relative;overflow:hidden}
 .ember-mainslider .swiper-button-next,.ember-mainslider .swiper-button-prev,.ember-slider .swiper-button-next,.ember-slider .swiper-button-prev{color:#fff;background:$maincolor;width:25px;height:25px;opacity:0;transition:.2s all ease-in-out}
