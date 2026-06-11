@@ -3,7 +3,7 @@
 <!--
 =============================================================
  Ember - Free Magazine Blogger Template
- Version: 2.0.0
+ Version: 2.1.0
  Author: Colorlib (https://colorlib.com)
  Demo: https://ember-preview.blogspot.com
  License: GPL v3 (https://www.gnu.org/licenses/gpl-3.0)
@@ -196,7 +196,7 @@ ul#ember_menu{list-style:none;margin:0;padding:0;}
 #ember-menu ul li.hasSubmenu ul li:after,#ember-menu ul li:last-child:after{display:none}
 #ember-menu ul > li:hover > a{color:$maincolor}
 #ember-menu ul > li > ul > li a{font-size:14px;line-height:22px;display:block;color: #63636a;text-transform:uppercase;text-decoration:none;margin:0;padding:15px 25px;border-right:0;border:0}
-#ember-menu ul > li.hasSubmenu > a:after{content:'\f107';font-family:FontAwesome;float:right;margin-left:5px;font-size:12px;}
+#ember-menu ul > li.hasSubmenu > a:after{content:'\f107';font-family:"Font Awesome 7 Free";font-weight:900;float:right;margin-left:5px;font-size:12px;}
 #ember-menu ul > li:hover > ul,#ember-menu ul > li > ul > li:hover > ul{opacity:1;visibility:visible;-webkit-transform:translateY(0);-moz-transform:translateY(0);transform:translateY(0)}
 #ember-menu ul > li > ul > li.hasSubmenu > a:after{content:'\f105';float:right}
 .istable{display: table;width: 100%;position:relative;}
@@ -288,7 +288,7 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 /* Search Button */
 .ember-search-btn a.ember-serch{cursor:pointer;display:block;height:60px;text-align:center;position:relative;right:0;top:0;width:50px;border-radius:0;box-sizing:border-box;color:#2f2f33}
 .ember-search-btn a.ember-serch:hover{color:$maincolor}
-.ember-search-btn a.ember-serch:before{color:#2f2f33;content: "\f4a5";font-family:Ionicons;font-size:20px;line-height:60px;}
+.ember-search-btn a.ember-serch:before{color:#2f2f33;content: "\f002";font-family:"Font Awesome 7 Free";font-weight:900;font-size:20px;line-height:60px;}
 .ember-search-btn span{list-style:none}
 
 /* Featued Post Widget */
@@ -304,9 +304,9 @@ li.hasSubmenu.isMega > ul{position: absolute;width: 100%;left:0px;right:0px;}
 .emberfeatured .ember-secondary .ember-content .emberfeatured-title{overflow:hidden;line-height:0;margin:0 0 2px;padding:0}
 .emberfeatured .ember-secondary .ember-content .emberfeatured-title a{color:#fff;font-weight:400;font-size:13px;line-height:1.5em}
 .ember-author{margin-right:10px}
-.ember-author::before{content:'\f47d';font-family: "Ionicons";color:#bbb;margin-right:5px}
+.ember-author::before{content:'\f007';font-family:"Font Awesome 7 Free";font-weight:400;color:#bbb;margin-right:5px}
 .ember-author,.ember-time{color:#bdbdbd;font-size:12px;font-weight:400}
-.ember-time:before{content: "\f402";font-family: "Ionicons";color:#bbb;margin-right:5px}
+.ember-time:before{content: "\f017";font-family:"Font Awesome 7 Free";font-weight:400;color:#bbb;margin-right:5px}
 .ember-label a {border:1px solid #fff;background: transparent;  border-radius: 0px;padding: 5px 10px;position: relative;display: inline-block;text-transform: uppercase;color: #fff;font-size: 12px;position: relative;line-height: 14px;margin-bottom: 5px;}
 .slidebg .emberfeatured .ember-hero .ember-hero-content .emberfeatured-title a{ font-size: 22px;line-height: 26px;font-weight: 600;padding: 10px 0px;}
 .slidebg .emberfeatured .ember-hero .ember-hero-content .emberfeatured-title a:hover,.emberfeatured .ember-secondary .ember-content .emberfeatured-title a:hover{color: $maincolor;}
@@ -331,7 +331,7 @@ object.ember-widget{padding: 30px 0px;display: block;width: 100%;}
 .ember-gallery-feature .feature-image{background-position: center center !important}
 .ember-gallery-feature .ember-iframe-hidden{display: none}
 .ember-gallery-feature .feature-image{height: 400px;width: 100%;background-size: cover !important;}
-.ember-gallery-feature .feature-image:after{content: "\f488";font-family: "Ionicons";font-size:60px;color: #fff;width: 100%;line-height: 400px;text-align: center; background: rgba(0,0,0,0.4);height: 100%;display: table;cursor:pointer}
+.ember-gallery-feature .feature-image:after{content: "\f03e";font-family:"Font Awesome 7 Free";font-weight:400;font-size:60px;color: #fff;width: 100%;line-height: 400px;text-align: center; background: rgba(0,0,0,0.4);height: 100%;display: table;cursor:pointer}
 .ember-gallery-feature h3{font-weight: 600;line-height: 40px;font-size:18px;margin-top:10px;}
 .ember-gallery-feature .article-meta span, .ember-gallery-feature .article-meta span a{color:#fff;}
 .ember-gallery-feature .article-meta span i{font-size:17px;padding:10px 5px;}
@@ -340,7 +340,7 @@ object.ember-widget{padding: 30px 0px;display: block;width: 100%;}
 .ember-gallery-post{box-sizing:border-box;padding:15px 18px;position:relative;text-align: center;}
 .ember-gallery-post:first-child{padding-left: 0px;}
 .ember-gallery-post .img_dyn{height: 108px;background-size:cover !important;position: relative;background-position:center center;}
-.ember-gallery-post .playing.img_dyn:after{content: "\f487";font-family: "Ionicons";font-size: 30px;color: #fff;width: 100%;line-height: 108px;text-align: center;background: rgba(0,0,0,0.4);height: 100%;display: table;cursor: pointer;}
+.ember-gallery-post .playing.img_dyn:after{content: "\f04b";font-family:"Font Awesome 7 Free";font-weight:900;font-size: 30px;color: #fff;width: 100%;line-height: 108px;text-align: center;background: rgba(0,0,0,0.4);height: 100%;display: table;cursor: pointer;}
 .ember-gallery-post h3 a{font-size: 14px;font-weight: 600;}
 .ember-gallery-post h3{padding: 10px 0px;line-height:18px;}
 .clearfix{clear:both;}
@@ -575,7 +575,7 @@ article.hentry:hover{box-shadow:0 20px 20px rgba(0,0,0,.16);transform: translate
 .comments .comment .comment-actions a{margin-right:5px;padding:2px 5px;font-weight:400;font-size:10px}
 .comments .comment .comment-actions a:hover{color:#fff;background-color:$maincolor;text-decoration:none}
 .comments .comments-content .datetime{color:#999;float:left;font-size:11px;position:relative;font-style:italic;margin:2px 0 0;display:block}
-.comments .comments-content .datetime:before{content:'\f017';font-family:fontawesome;font-style:normal;margin-right:3px}
+.comments .comments-content .datetime:before{content:'\f017';font-family:"Font Awesome 7 Free";font-weight:400;font-style:normal;margin-right:3px}
 .comments .comments-content .comment-header a{color:inherit}
 .comments .comments-content .comment-header a:hover{color:$maincolor}
 .comments .thread-toggle{margin-bottom:4px}
@@ -619,11 +619,11 @@ article.hentry:hover{box-shadow:0 20px 20px rgba(0,0,0,.16);transform: translate
 .showpageOf{display:none!important;overflow:hidden}
 #blog-pager .pages{margin:10px 0;border:none}
 .blog-pager-newer-link{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
-.blog-pager-newer-link:before{content: "\f2ca";font-family: "Ionicons";color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
+.blog-pager-newer-link:before{content: "\f060";font-family:"Font Awesome 7 Free";font-weight:900;color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
 .blog-pager-newer-link:hover{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
 .blog-pager-newer-link:hover:before{background:$maincolor;color: #fff}
 .blog-pager-older-link{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
-.blog-pager-older-link:after{content: "\f30f";font-family: "Ionicons";color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
+.blog-pager-older-link:after{content: "\f061";font-family:"Font Awesome 7 Free";font-weight:900;color: #2f2f33;padding: 10px;font-size: 14px;background: $(lightcolor) ;border-radius: 100%;text-align: center;margin: 10px;display: inline-block;line-height: 10px;}
 .blog-pager-older-link:hover{background: #fff;font-size: 12px;padding-left: 7px;color: #2f2f33;border:0px solid #000}
 .blog-pager-older-link:hover:after{background:$maincolor;color: #fff}
 .blockpad{display: block;margin-bottom: 0px;}
@@ -905,7 +905,7 @@ h1.post-title{font-size:17px}
 .search-transition-wrap .searchform .form-control, .search-transition-wrap .woocommerce-product-search .form-control{background:none;border:none;font-size:20px;color:#FFF;height:50px;padding:0;}
 .search-transition-wrap .searchform .form-control{width:100%;box-sizing:border-box;padding-right:60px;font-family: Poppins;font-size: 30px;}
 .search-transition-wrap .input-group-btn button{position:absolute;right:0px;top:10px;border:0px;color:#fff;background:rgba(0,0,0,0);}
-.search-transition-wrap .input-group-btn button:before{font-family:"Ionicons";content:"\f4a5";font-size:25px;padding:10px;}
+.search-transition-wrap .input-group-btn button:before{font-family:"Font Awesome 7 Free";font-weight:900;content:"\f002";font-size:25px;padding:10px;}
 .search-transition-wrap form > .input-group{position:relative;}
 .search-transition-wrap .btn-mini-close{background:rgba(0, 0, 0, 0) none repeat scroll 0 0;border:medium none;color:#fff !important;font-size:35px;position:fixed;top:50px;right:50px;margin-right:0px;opacity:1;transition:0.4s;}
 .search-transition-wrap .btn-mini-close:hover{cursor:pointer;}
@@ -991,15 +991,14 @@ body#layout .ember-logo{width: 250px;display: table;}
 //<![CDATA[
 //CSS Ready
 function loadCSS(e,t,n){"use strict";var i=window.document.createElement("link");var o=t||window.document.getElementsByTagName("script")[0];i.rel="stylesheet";i.href=e;i.media="only x";o.parentNode.insertBefore(i,o);setTimeout(function(){i.media=n||"all"})}
-loadCSS("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Open+Sans:400,600,700&display=swap");loadCSS("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css");
-loadCSS("https://cdn.jsdelivr.net/npm/ionicons@2.0.1/css/ionicons.min.css");
+loadCSS("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Open+Sans:400,600,700&display=swap");loadCSS("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css");
 //]]>
 </script>
 </head>
 <body expr:class='data:blog.pageType'>
 <a class='skip-link' href='#main-wrapper'>Skip to content</a>
 
-<div class='searchform-wrap search-transition-wrap'><div class='search-transition-inner'><form action='/search' class='searchform' method='get'><div class='input-group'> <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> <span class='input-group-btn'> <button aria-label='Search' class='btn btn-primary'><i class='ti-search'/></button> </span></div></form>                                <button aria-label='Close search' class='btn-mini-close pull-right'><i class='ion-ios-close-empty'/></button></div></div>
+<div class='searchform-wrap search-transition-wrap'><div class='search-transition-inner'><form action='/search' class='searchform' method='get'><div class='input-group'> <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/> <span class='input-group-btn'> <button aria-label='Search' class='btn btn-primary' type='submit'><i class='fa-solid fa-magnifying-glass'/></button> </span></div></form>                                <button aria-label='Close search' class='btn-mini-close pull-right'><i class='fa-solid fa-xmark'/></button></div></div>
 <div class='adminbar' style='display:none'>
 <div class='theme-opt'>
    
@@ -1051,14 +1050,14 @@ loadCSS("https://cdn.jsdelivr.net/npm/ionicons@2.0.1/css/ionicons.min.css");
       <b:widget-setting name='link-3'>https://twitter.com/ThemeDaddy</b:widget-setting>
       <b:widget-setting name='sorting'>NONE</b:widget-setting>
       <b:widget-setting name='link-4'>https://www.facebook.com/themedaddynet/</b:widget-setting>
-      <b:widget-setting name='text-1'><![CDATA[<i class="fa fa-vine"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-1'><![CDATA[<i class="fa-brands fa-threads"></i>]]></b:widget-setting>
       <b:widget-setting name='link-1'>#</b:widget-setting>
-      <b:widget-setting name='text-0'><![CDATA[<i class="fa fa-instagram"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-0'><![CDATA[<i class="fa-brands fa-instagram"></i>]]></b:widget-setting>
       <b:widget-setting name='link-2'>#</b:widget-setting>
-      <b:widget-setting name='text-3'><![CDATA[<i class="fa fa-twitter"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-3'><![CDATA[<i class="fa-brands fa-x-twitter"></i>]]></b:widget-setting>
       <b:widget-setting name='link-0'>#</b:widget-setting>
-      <b:widget-setting name='text-2'><![CDATA[<i class="fa fa-google-plus"></i>]]></b:widget-setting>
-      <b:widget-setting name='text-4'><![CDATA[<i class="fa fa-facebook"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-2'><![CDATA[<i class="fa-brands fa-pinterest"></i>]]></b:widget-setting>
+      <b:widget-setting name='text-4'><![CDATA[<i class="fa-brands fa-facebook"></i>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
 
@@ -1345,7 +1344,7 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
       <form action='/search' class='searchform' method='get'><div class='input-group'>
         <input class='form-control' name='q' placeholder='Search ... ' type='text' value=''/>
         <span class='input-group-btn'>
-          <button aria-label='Search' class='btn btn-primary'><i class='ion-ios-search'/></button>
+          <button aria-label='Search' class='btn btn-primary' type='submit'><i class='fa-solid fa-magnifying-glass'/></button>
         </span></div><div/></form>
     </div>
   </div>
@@ -1988,10 +1987,10 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
                  <div class='social share-links clearfix'>
 					<ul class='social-icons list-unstyled list-inline'>
                       <li class='social-item facebook'>
-                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa fa-facebook'/> </a>
+                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa-brands fa-facebook'/> </a>
                       </li>
                       <li class='social-item twitter'>
-                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa fa-twitter'/> </a>
+                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa-brands fa-x-twitter'/> </a>
                       </li>
                       </ul>
 				 </div>
@@ -2005,13 +2004,13 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
 			   </div>
                <div class='article-meta clearfix'>
 					<span class='byline'>
-						<i aria-hidden='true' class='ion-ios-person-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-user'/>
 						<span class='author vcard'>
                           <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
 						</span>
 					</span>
 					<span class='posted-on'>
-						<i aria-hidden='true' class='ion-ios-clock-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-clock'/>
                         <a expr:href='data:post.url' rel='bookmark'>
                             <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
                         </a>
@@ -2034,10 +2033,10 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
                  <div class='social share-links clearfix'>
 					<ul class='social-icons list-unstyled list-inline'>
                       <li class='social-item facebook'>
-                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa fa-facebook'/> </a>
+                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa-brands fa-facebook'/> </a>
                       </li>
                       <li class='social-item twitter'>
-                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa fa-twitter'/> </a>
+                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa-brands fa-x-twitter'/> </a>
                       </li>
                       </ul>
 				 </div>
@@ -2051,13 +2050,13 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
 			   </div>
                <div class='article-meta clearfix'>
 					<span class='byline'>
-						<i aria-hidden='true' class='ion-ios-person-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-user'/>
 						<span class='author vcard'>
                           <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
 						</span>
 					</span>
 					<span class='posted-on'>
-						<i aria-hidden='true' class='ion-ios-clock-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-clock'/>
                         <a expr:href='data:post.url' rel='bookmark'>
                             <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
                         </a>
@@ -2082,10 +2081,10 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
                  <div class='social share-links clearfix'>
 					<ul class='social-icons list-unstyled list-inline'>
                       <li class='social-item facebook'>
-                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa fa-facebook'/> </a>
+                          <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> <i class='fa-brands fa-facebook'/> </a>
                       </li>
                       <li class='social-item twitter'>
-                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa fa-twitter'/> </a>
+                          <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot;+ data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> <i class='fa-brands fa-x-twitter'/> </a>
                       </li>
                       </ul>
 				 </div>
@@ -2098,13 +2097,13 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
 			   </div>
                <div class='article-meta clearfix'>
 					<span class='byline'>
-						<i aria-hidden='true' class='ion-ios-person-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-user'/>
 						<span class='author vcard'>
                           <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
 						</span>
 					</span>
 					<span class='posted-on'>
-						<i aria-hidden='true' class='ion-ios-clock-outline'/>
+						<i aria-hidden='true' class='fa-regular fa-clock'/>
                         <a expr:href='data:post.url' rel='bookmark'>
                             <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
                         </a>
@@ -2132,13 +2131,13 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
         </div>
         <div class='article-meta clearfix'>
           <span class='byline'>
-            <i aria-hidden='true' class='ion-ios-person-outline'/>
+            <i aria-hidden='true' class='fa-regular fa-user'/>
             <span class='author vcard'>
               <a class='url fn n' expr:href='data:post.authorUrl'><data:post.author/></a>
             </span>
           </span>
           <span class='posted-on'>
-            <i aria-hidden='true' class='ion-ios-clock-outline'/>
+            <i aria-hidden='true' class='fa-regular fa-clock'/>
             <a expr:href='data:post.url' rel='bookmark'>
               <time class='entry-date published format-date' expr:datetime='data:post.timestampISO8601'/>
             </a>
@@ -2168,13 +2167,13 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
               <ul class='social-icons list-unstyled list-inline'>
                 <li class='social-item facebook'> 
                   <a class='post_share_facebook facebook' expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600&apos;);return false;' title='facebook'> 
-                    <i class='fa fa-facebook'>
+                    <i class='fa-brands fa-facebook'>
                     </i> facebook                        
                   </a>
                 </li>
                 <li class='social-item twitter'> 
                   <a class='product_share_twitter twitter' expr:href='&quot;https://twitter.com/share?url=&quot; + data:post.url' onclick='javascript:window.open(this.href,&apos;&apos;, &apos;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600&apos;);return false;' title='twitter'> 
-                    <i class='fa fa-twitter'>
+                    <i class='fa-brands fa-x-twitter'>
                     </i> twitter                        
                   </a>
                 </li>
@@ -3346,7 +3345,7 @@ function initMegaMenus() {
       var perStage = parseInt(data.feed.openSearch$itemsPerPage.$t, 10);
       var stages = Math.ceil(total / perStage);
       var html = '<ul data-itemnums="' + perStage + '" data-label="' + label + '" data-start="' + start + '" data-stages="' + stages + '" data-cstage="1" data-tpst="' + total + '">' +
-        '<div class="mega-nav"><a aria-label="Previous posts" class="mega-prev disable" href="javascript:;" role="button"><i aria-hidden="true" class="fa fa-arrow-left"></i></a><a aria-label="Next posts" class="mega-next" href="javascript:;" role="button"><i aria-hidden="true" class="fa fa-arrow-right"></i></a></div>' +
+        '<div class="mega-nav"><a aria-label="Previous posts" class="mega-prev disable" href="javascript:;" role="button"><i aria-hidden="true" class="fa-solid fa-arrow-left"></i></a><a aria-label="Next posts" class="mega-next" href="javascript:;" role="button"><i aria-hidden="true" class="fa-solid fa-arrow-right"></i></a></div>' +
         '<div class="ember-mega-loading" style="display:none"><div class="ember-loading-inner"><div class="ember-thecube"><div class="ember-cube ember-c1"></div><div class="ember-cube ember-c2"></div><div class="ember-cube ember-c4"></div><div class="ember-cube ember-c3"></div></div></div></div>' +
         '<div class="mega-inner row">' + data.feed.entry.map(emberMegaItemHtml).join("") + "</div></ul>";
       link.insertAdjacentHTML("afterend", html);
@@ -3485,7 +3484,7 @@ function initFeaturedSlider() {
             hero.src = image;
           }
           var excerpt = (entry.content ? entry.content.$t : "").replace(/<.*?>/gi, "").split(/\s+/).slice(0, 24).join(" ");
-          html += '<div class="swiper-slide item"><div class="grid-item secondary col-md-12"><article class="hentry ember-article"><div class="ember-article-image"><div class="ember-post-image"><div class="ember-bgr"></div><a aria-label="' + emberAttr(title) + '" href="' + url + '"><div class="ember-featured-wid" style="background:url(' + image + ')"></div></a><div class="social share-links clearfix"><ul class="social-icons list-unstyled list-inline"><li class="social-item facebook"><a class="post_share_facebook facebook" href="https://www.facebook.com/sharer.php?u=' + url + '" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600\');return false;" title="facebook"><i class="fa fa-facebook"></i></a></li><li class="social-item twitter"><a class="product_share_twitter twitter" href="https://twitter.com/share?url=' + url + '" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600\');return false;" title="twitter"><i class="fa fa-twitter"></i></a></li></ul></div></div></div><div class="article-content"><div class="article-inwhite"><div class="entry-header clearfix"><h3 class="entry-title"><a href="' + url + '" title="' + emberAttr(title) + '">' + title + '</a></h3></div><div class="article-meta clearfix"><span class="byline"><i aria-hidden="true" class="ion-ios-person-outline"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span><span class="posted-on"><i aria-hidden="true" class="ion-ios-clock-outline"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published" datetime="' + entry.published.$t + '">' + date + '</time></a></span></div><div class="entry-content"><div>' + excerpt + '...</div></div><a class="btn-read" href="' + url + '">Read More</a></div></div></article></div></div>';
+          html += '<div class="swiper-slide item"><div class="grid-item secondary col-md-12"><article class="hentry ember-article"><div class="ember-article-image"><div class="ember-post-image"><div class="ember-bgr"></div><a aria-label="' + emberAttr(title) + '" href="' + url + '"><div class="ember-featured-wid" style="background:url(' + image + ')"></div></a><div class="social share-links clearfix"><ul class="social-icons list-unstyled list-inline"><li class="social-item facebook"><a class="post_share_facebook facebook" href="https://www.facebook.com/sharer.php?u=' + url + '" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600\');return false;" title="facebook"><i class="fa-brands fa-facebook"></i></a></li><li class="social-item twitter"><a class="product_share_twitter twitter" href="https://twitter.com/share?url=' + url + '" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600\');return false;" title="twitter"><i class="fa-brands fa-x-twitter"></i></a></li></ul></div></div></div><div class="article-content"><div class="article-inwhite"><div class="entry-header clearfix"><h3 class="entry-title"><a href="' + url + '" title="' + emberAttr(title) + '">' + title + '</a></h3></div><div class="article-meta clearfix"><span class="byline"><i aria-hidden="true" class="fa-regular fa-user"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span><span class="posted-on"><i aria-hidden="true" class="fa-regular fa-clock"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published" datetime="' + entry.published.$t + '">' + date + '</time></a></span></div><div class="entry-content"><div>' + excerpt + '...</div></div><a class="btn-read" href="' + url + '">Read More</a></div></div></article></div></div>';
         });
       } else {
         html += '<style>.ember-empty-panel img{max-width: 600px; width:100%}.ember-empty-panel{text-align: center;}.ember-empty-text h3{font-weight: 600;font-size:18px;line-height: 24px;margin-bottom:50px;}</style><div class="swiper-slide"><div class="ember-empty-panel"><div class="ember-empty-thumb"><img alt="" src="' + EMBER_NO_THUMB + '"></div><div class="ember-empty-text"><h3>No posts found for label : "' + label + '". <br/> <span class="ember-small">You can disable this widget by removing all the widget content from layout tab.</span></h3></div></div></div>';
@@ -3713,10 +3712,10 @@ article {
 <script type='text/javascript'>
   /*<![CDATA[*/
     var numPages=5;
-    var firstText ='<i class="fa fa-arrow-left" aria-hidden="true"></i> First';
-    var lastText ='Last <i class="fa fa-arrow-right" aria-hidden="true"></i>';
-    var prevText ='<i class="fa fa-arrow-left" aria-hidden="true"></i><span class="sr-only">Previous page</span>';
-    var nextText ='<i class="fa fa-arrow-right" aria-hidden="true"></i><span class="sr-only">Next page</span>';
+    var firstText ='<i class="fa-solid fa-arrow-left" aria-hidden="true"></i> First';
+    var lastText ='Last <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>';
+    var prevText ='<i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span class="sr-only">Previous page</span>';
+    var nextText ='<i class="fa-solid fa-arrow-right" aria-hidden="true"></i><span class="sr-only">Next page</span>';
     var urlactivepage=location.href;
     var home_page="/";
   /*]]>*/
@@ -3768,7 +3767,7 @@ function emberNoPostsPanel(label) {
 }
 
 function emberShareIconsHtml(url) {
-  return '<div class="ember-post-share"><div class="ember-cell"><ul class="social-icons list-unstyled list-inline"><li class="social-item facebook"> <a href="https://www.facebook.com/sharer.php?u=' + url + '" title="facebook" class="post_share_facebook facebook" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600\');return false;"> <i class="fa fa-facebook"></i> </a></li><li class="social-item twitter"> <a href="https://twitter.com/share?url=' + url + '" title="twitter" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600\');return false;" class="product_share_twitter twitter"> <i class="fa fa-twitter"></i> </a></li><li class="social-item pinterest"> <a href="https://pinterest.com/pin/create/button/?url=' + url + '" class="pinterest" title="pinterest" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600\');return false;"> <i class="fa fa-pinterest"></i> </a></li></ul></div></div>';
+  return '<div class="ember-post-share"><div class="ember-cell"><ul class="social-icons list-unstyled list-inline"><li class="social-item facebook"> <a href="https://www.facebook.com/sharer.php?u=' + url + '" title="facebook" class="post_share_facebook facebook" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=220,width=600\');return false;"> <i class="fa-brands fa-facebook"></i> </a></li><li class="social-item twitter"> <a href="https://twitter.com/share?url=' + url + '" title="twitter" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=260,width=600\');return false;" class="product_share_twitter twitter"> <i class="fa-brands fa-x-twitter"></i> </a></li><li class="social-item pinterest"> <a href="https://pinterest.com/pin/create/button/?url=' + url + '" class="pinterest" title="pinterest" onclick="javascript:window.open(this.href,\'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600\');return false;"> <i class="fa-brands fa-pinterest"></i> </a></li></ul></div></div>';
 }
 
 function emberRenderListWidget(widget, data) {
@@ -3782,9 +3781,9 @@ function emberRenderListWidget(widget, data) {
       var published = entry.published.$t;
       var date = emberFormatLongDate(published);
       var image = emberEntryImage(entry, index === 0 ? "s800" : "s400");
-      var metaTime = '<span class="posted-on"><i class="ion-ios-clock-outline"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published updated" datetime="' + published + '">' + date + "</time></a></span>";
+      var metaTime = '<span class="posted-on"><i class="fa-regular fa-clock"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published updated" datetime="' + published + '">' + date + "</time></a></span>";
       if (index === 0) {
-        html += '<div class="ember-widget-col-1 ember-list-col"><article class="ember-post"><div class="ember-parentover"><div class="ember-list-media"><a href="' + url + '"><img alt="' + title + '" loading="lazy" src="' + image + '"></a>' + emberShareIconsHtml(url) + '</div><div class="ember-box-list"><div class="ember-box-inside"><div class="ember-list-content"><div class="entry-header"><h3 class="entry-title"><a href="' + url + '" rel="bookmark">' + title + '</a></h3></div></div><div class="article-meta"><span class="byline"><i class="ion-ios-person-outline"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span> ' + metaTime + '</div><div class="entry-content"><div>' + emberExcerpt(entry.content ? entry.content.$t : "", 25) + '...</div><a class="btn-read" href="' + url + '">Read More</a></div></div></div></div></article></div><div class="ember-widget-col-2 ember-list-col">';
+        html += '<div class="ember-widget-col-1 ember-list-col"><article class="ember-post"><div class="ember-parentover"><div class="ember-list-media"><a href="' + url + '"><img alt="' + title + '" loading="lazy" src="' + image + '"></a>' + emberShareIconsHtml(url) + '</div><div class="ember-box-list"><div class="ember-box-inside"><div class="ember-list-content"><div class="entry-header"><h3 class="entry-title"><a href="' + url + '" rel="bookmark">' + title + '</a></h3></div></div><div class="article-meta"><span class="byline"><i class="fa-regular fa-user"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span> ' + metaTime + '</div><div class="entry-content"><div>' + emberExcerpt(entry.content ? entry.content.$t : "", 25) + '...</div><a class="btn-read" href="' + url + '">Read More</a></div></div></div></div></article></div><div class="ember-widget-col-2 ember-list-col">';
       } else {
         html += '<article class="ember-post"><div class="article-image"><div class="post-image"><a aria-label="' + emberAttr(title) + '" href="' + url + '" style="background:black url(' + image + ')" rel="bookmark"></a></div></div><div class="article-content side-item-text"><div class="entry-header"><div class="entry-header-title"><h3 class="entry-title"><a href="' + url + '" rel="bookmark">' + title + '</a></h3></div></div><div class="article-meta">' + metaTime + "</div></div></article>";
       }
@@ -3822,7 +3821,7 @@ function emberRenderGalleryWidget(widget, data) {
     var date = emberFormatLongDate(published);
     var media = emberGalleryImage(entry);
     if (index === 0) {
-      featureHtml = '<div class="ember-gallery-feature"><div class="ember-iframe-hidden"></div><div class="feature-image  ' + media.id + '" data-vidid="' + media.id + '" style="background:url(' + media.img + ')"></div><div class="ember-absolutize"><div class="ember-dyn-t"><h3><a href="' + url + '">' + title + '</a></h3></div><div class="article-meta"><span class="byline"><i class="ion-ios-person-outline"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span> <span class="posted-on"><i class="ion-ios-clock-outline"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published updated" datetime="' + published + '">' + date + "</time></a></span></div></div></div>";
+      featureHtml = '<div class="ember-gallery-feature"><div class="ember-iframe-hidden"></div><div class="feature-image  ' + media.id + '" data-vidid="' + media.id + '" style="background:url(' + media.img + ')"></div><div class="ember-absolutize"><div class="ember-dyn-t"><h3><a href="' + url + '">' + title + '</a></h3></div><div class="article-meta"><span class="byline"><i class="fa-regular fa-user"></i><span class="author vcard"><a class="url fn n" href="' + authorUrl + '">' + author + '</a></span></span> <span class="posted-on"><i class="fa-regular fa-clock"></i><a href="' + url + '" rel="bookmark"><time class="entry-date published updated" datetime="' + published + '">' + date + "</time></a></span></div></div></div>";
     }
     slidesHtml += '<div class="swiper-slide ember-gallery-post slide item dy-dn"><div class="' + state + " " + media.id + ' img_dyn getinfo" data-vidid="' + media.id + '" data-img="' + media.img + '" style="background:url(' + media.img + ')" data-auth="' + author + '" data-auth-uri="' + authorUrl + '" data-time="' + date + '"></div><div class="ember-slide-title"><h3><a href="' + url + '">' + title + "</a></h3></div></div>";
     if (index === 0) state = "playing";
@@ -3894,7 +3893,7 @@ function initCustomWidgets() {
         if (l.rel === "alternate") {
           var widgetBox = widget.closest(".widget");
           var heading = widgetBox ? widgetBox.querySelector("h2.title") : null;
-          if (heading) heading.insertAdjacentHTML("afterend", '<div class="ember-right-all"><a href="' + l.href + "?&max-results=" + perPage + '" >view all <i class="fa fa-arrow-right"></i></a></div>');
+          if (heading) heading.insertAdjacentHTML("afterend", '<div class="ember-right-all"><a href="' + l.href + "?&max-results=" + perPage + '" >view all <i class="fa-solid fa-arrow-right"></i></a></div>');
         }
       });
       if (type === "list") emberRenderListWidget(widget, data);
