@@ -1080,7 +1080,7 @@ loadCSS("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Ope
           <b:section class='ember-wide' id='ember-wide' maxwidgets='1' name='Blog Header' preferred='no' showaddelement='no'>
              <b:widget id='Header1' locked='true' title='Ember (Header)' type='Header' version='1'>
                <b:widget-settings>
-                 <b:widget-setting name='displayUrl'>http://4.bp.blogspot.com/-HwnaLgCXl-8/Wg2T9-zJY4I/AAAAAAAABEE/cGYETcrU8qgfJHKQFZ7pIv0OZEFXGW-KQCK4BGAYYCw/s1600/ember.png</b:widget-setting>
+                 <b:widget-setting name='displayUrl'>https://4.bp.blogspot.com/-HwnaLgCXl-8/Wg2T9-zJY4I/AAAAAAAABEE/cGYETcrU8qgfJHKQFZ7pIv0OZEFXGW-KQCK4BGAYYCw/s1600/ember.png</b:widget-setting>
                  <b:widget-setting name='displayHeight'>55</b:widget-setting>
                  <b:widget-setting name='sectionWidth'>150</b:widget-setting>
                  <b:widget-setting name='useImage'>true</b:widget-setting>
