@@ -1289,7 +1289,7 @@ user is not using shrink to fit then we expand the header.
 <b:section class='ad-home-widget' id='ember-advert-1' maxwidgets='1' name='Home Advertisement [Full Width]' preferred='no' showaddelement='no'>
   <b:widget id='HTML994' locked='false' title='Full width home advertisement' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img alt="Advertisement" style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1391,7 +1391,7 @@ body.error_page .whiter{box-shadow:0px 2px 4px 0px rgba(0,0,0,0.05);background: 
 <b:section class='ad-top-widget' id='ember-advert-2' maxwidgets='1' name='Post Page Advertisement [Top]' preferred='no' showaddelement='no'>
   <b:widget id='HTML991' locked='true' title='Post Page Advertisement [Top]' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img alt="Advertisement" style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2660,7 +2660,7 @@ var msg = &#39;<data:navMessage/>&#39;;
 <b:section class='ad-bottom-widget' id='ember-advert-3' maxwidgets='1' name='Bottom Ad [Post Page]' preferred='no' showaddelement='no'>
   <b:widget id='HTML988' locked='true' title='Bottom Ad [Post Page]' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
+      <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img alt="Advertisement" style="width:100%;" src="https://4.bp.blogspot.com/-y4FacSyA0NE/Wg2YgSZqTgI/AAAAAAAABEM/Hn5sPggUYbIqNnLaU1RVza7KirW0SgpMwCLcBGAs/s1600/728.png"/></a>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -2697,7 +2697,7 @@ var msg = &#39;<data:navMessage/>&#39;;
       </b:widget>
       <b:widget id='HTML2' locked='false' title='Advertisement' type='HTML' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img style="width:100%;" src="https://3.bp.blogspot.com/-XChvD8dPPc8/Wg2YgxEbruI/AAAAAAAABEQ/j7A0RuMPHLAnCAARsQfnmws2Lg7vFwVqwCLcBGAs/s1600/350.png"/></a>]]></b:widget-setting>
+          <b:widget-setting name='content'><![CDATA[<a href="https://colorlib.com" target="_blank"><img alt="Advertisement" style="width:100%;" src="https://3.bp.blogspot.com/-XChvD8dPPc8/Wg2YgxEbruI/AAAAAAAABEQ/j7A0RuMPHLAnCAARsQfnmws2Lg7vFwVqwCLcBGAs/s1600/350.png"/></a>]]></b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -3512,7 +3512,7 @@ function initFeaturedSlider() {
 }
 
 // ---- Sidebar feed widgets: recent comments, recent posts, posts by tag ----
-var EMBER_EMPTY_PANEL = '<style>.ember-empty-panel img{max-width: 600px; width:100%}.ember-empty-panel{text-align: center;}.ember-empty-text h3{font-weight: 600;font-size:18px;line-height: 24px;margin-bottom:50px;}.bgr{background: rgb(236,239,241);}.bgr{box-sizing: border-box;padding:5px 10px;}</style><div class="ember-empty-panel bgr"><div class="ember-empty-thumb"><img src="' + EMBER_NO_THUMB + '"></div><div class="ember-empty-text"><h3>{message} <br/></h3></div></div>';
+var EMBER_EMPTY_PANEL = '<style>.ember-empty-panel img{max-width: 600px; width:100%}.ember-empty-panel{text-align: center;}.ember-empty-text h3{font-weight: 600;font-size:18px;line-height: 24px;margin-bottom:50px;}.bgr{background: rgb(236,239,241);}.bgr{box-sizing: border-box;padding:5px 10px;}</style><div class="ember-empty-panel bgr"><div class="ember-empty-thumb"><img alt="" src="\' + EMBER_NO_THUMB + \'"></div><div class="ember-empty-text"><h3>{message} <br/></h3></div></div>';
 
 function emberRecentItemHtml(entry) {
   var url = emberEntryUrl(entry);
@@ -3551,7 +3551,7 @@ function initSidebarFeedWidgets() {
           var avatar = entry.author[0].gd$image.src;
           if (avatar.indexOf("img1.blogblog.com/img/blank.gif") > -1 || avatar.indexOf("img2.blogblog.com/img/b16-rounded.gif") > -1) avatar = "https://img1.blogblog.com/img/anon36.png";
           if (avatar.indexOf("//") === 0) avatar = "https:" + avatar;
-          html += '<div class="ember-comment"><div class="ember-comment-profile"><img class="ember-comment-thumb" loading="lazy" src="' + avatar + '"/></div><a href="' + url + '">' + author + '</a><span>"' + text + '"</span></div>';
+          html += '<div class="ember-comment"><div class="ember-comment-profile"><img alt="" class="ember-comment-thumb" loading="lazy" src="' + avatar + '"/></div><a href="' + url + '">' + author + '</a><span>"' + text + '"</span></div>';
         });
       } else {
         html += EMBER_EMPTY_PANEL.replace("{message}", "No comments!");
