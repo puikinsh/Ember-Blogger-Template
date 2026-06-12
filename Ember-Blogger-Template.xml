@@ -782,12 +782,6 @@ form input[type='text']:hover,#ember-footer .contact-form-widget textarea:hover{
 #ember-footer-cols:last-child{padding-right: 0px !important;}
 #content-wrapper{box-sizing: border-box;padding-left: 0px;padding-right: 20px;}
 #footer-wrapper{box-sizing: border-box;padding: 20px 10px;}
-/*OWL*/
-/**
- * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
 
 @media only screen and (max-width: 1200px) {
 .body-row{width:96%!important;margin:0 auto;float:none}
@@ -3157,7 +3151,7 @@ var msg = &#39;<data:navMessage/>&#39;;
         <div class='ember-cwrap body-row'>
          
                     <div class='ember-credit_copyright'>
-                      Copyright 2017, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='https://colorlib.com/'>Colorlib</a>
+                      Copyright <span class='copyright-year'>2026</span>, <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All rights Reserved.</div> | Designed by <a href='https://colorlib.com/'>Colorlib</a>
                 
                
               
@@ -3923,6 +3917,11 @@ document.querySelectorAll(".Label a, .ember-max-limit").forEach(function (a) {
   var href = a.getAttribute("href");
   if (href && href.indexOf("max-results=") === -1) a.setAttribute("href", href + "?&max-results=" + perPage);
 });
+//]]>
+</script>
+<script>
+//<![CDATA[
+document.querySelectorAll(".copyright-year").forEach(function (el) { el.textContent = new Date().getFullYear(); });
 //]]>
 </script>
 </body>
